@@ -1,0 +1,102 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -------------hero-------------- */
+.box{
+    background-color: rgba(221, 221, 221, 0.596);
+    border-radius: 15px;
+}
+.icons img{
+    max-width: 8vw;
+}
+.inputs .btn-group button,
+.input-group input,
+.input-group i .fas{
+   font-size: 1.5vw;
+}
+/* ---------------------------------- */
+
+/* -------------Sumary------------- */
+.contents{
+    top:260px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* ---------------------------------- */
+
+/* -------------Times--------------- */
+.icon{
+    max-width: 3vw;
+}
+.detailtext2 h5,
+.detailtext2 small{
+   font-size:1.5vw;
+}
+.detailtext1 p,
+.detailtext1 span{
+    font-size: 2vw;
+}
+.times-information{
+    top:30%;
+    left: 40%;
+}
+/* ----------------------------------- */
+
+/* --------------Orientation------------- */
+.step11-image,
+.step13-image,
+.step21-image,
+.step22-image{
+    position: relative;
+}
+.step11-content,
+.step13-content,
+.step21-content
+{
+    position: absolute;
+    bottom: 20px;
+}
+.step21-content{
+    position: absolute;
+    bottom: 20px;
+    left:50%;
+}
+.step22-content{
+    position: absolute;
+    bottom: 20px;
+    left:10%;
+}
+/* ---------------------------------------- */
+
+/* ------------------Fotter---------------- */
+.fotter-detail ul li{
+    text-decoration: none;
+    list-style: none;
+}
+/* ---------------------------------------- */
+
+/* ---------media querySelector--------- */
+@media(max-width:575px){
+    .times-information{
+        top:3%;
+        left: 30%;
+    }
+    .home,
+    .person{
+        display:none;
+    }
+    .collapse .fas{
+        display: none;
+    }
+    #navheader{
+        background-color: black;
+    }
+}
+/* ---------------------------------------- */
+
+
